@@ -10,6 +10,6 @@
 
 @interface MDHAppSandboxController : UIViewController
 
-@property(nonatomic, copy) NSString *folderName;
-@property(nonatomic, copy) NSString *folderPath;
+@property(nonatomic, copy) NSString *folderName; // 文件夹名字
+@property(nonatomic, copy) NSString *folderPath; // 文件夹路径
 @end
